@@ -1,0 +1,51 @@
+@import "./variables.css";
+@import "./reset.css";
+
+/*=============================
+        FONTES
+==============================*/
+
+@font-face {
+  font-family: "CormorantLight";
+  src: url("../fonts/CormorantGaramond-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CormorantMedium";
+  src: url("../fonts/CormorantGaramond-Medium.ttf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body);
+  background: var(--white);
+  color: var(--black);
+}
+
+.container {
+  width: min(90%, 1200px);
+  margin: auto;
+}
+
+section {
+  padding: 110px 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  line-height: 1.8;
+}
+
+::selection {
+  background: #e8be5a;
+  color: #101820;
+}

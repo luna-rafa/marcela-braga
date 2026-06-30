@@ -1,0 +1,144 @@
+.bridge {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #17232d 0%,
+    #101820 45%,
+    #070b0f 100%
+  );
+  color: var(--white);
+  padding: 130px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.bridge::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 70%;
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(232, 190, 90, 0.8),
+    transparent
+  );
+}
+
+.bridge-container {
+  max-width: 940px;
+  position: relative;
+  z-index: 2;
+  padding: 76px 64px;
+  border: 1px solid rgba(232, 190, 90, 0.18);
+  border-radius: 28px;
+  background-image:
+    linear-gradient(
+      rgba(16, 24, 32, 0.70),
+      rgba(16, 24, 32, 0.74)
+    ),
+    url("../../assets/marcela-escada.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.20);
+  overflow: hidden;
+}
+
+.bridge span {
+  display: inline-block;
+  color: #e8be5a;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+.bridge h2 {
+  font-family: var(--title);
+  font-size: clamp(2.2rem, 4vw, 3.8rem);
+  font-weight: 300;
+  line-height: 1.18;
+  margin: 0 auto 30px;
+  max-width: 820px;
+  color: var(--white);
+}
+
+.bridge p {
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 1.08rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.bridge-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 36px;
+  border: 1px solid #e8be5a;
+  border-radius: 50px;
+  color: #e8be5a;
+  font-weight: 600;
+  transition: 0.35s ease;
+}
+
+.bridge-button:hover {
+  background: #e8be5a;
+  color: #101820;
+}
+
+.bridge::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 140px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #1a2833
+  );
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .bridge {
+    padding: 90px 0;
+  }
+
+  .bridge-container {
+    padding: 56px 28px;
+    border-radius: 24px;
+  }
+
+  .bridge h2 {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .bridge-container {
+    padding: 48px 22px;
+    border-radius: 22px;
+  }
+
+  .bridge span {
+    letter-spacing: 3px;
+    font-size: 0.68rem;
+  }
+
+  .bridge h2 {
+    font-size: 2rem;
+  }
+
+  .bridge p {
+    font-size: 0.95rem;
+  }
+}

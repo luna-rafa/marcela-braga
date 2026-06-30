@@ -1,0 +1,129 @@
+.about {
+  position: relative;
+  background: #17232d;
+  color: var(--white);
+  padding: 120px 0;
+  overflow: hidden;
+}
+
+.about-container {
+  position: relative;
+  max-width: 1180px;
+  margin: auto;
+  z-index: 2;
+}
+
+.about-bg-number {
+  position: absolute;
+  top: -70px;
+  right: 40px;
+  font-family: var(--title);
+  font-size: clamp(10rem, 22vw, 22rem);
+  color: rgba(232, 190, 90, 0.055);
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.about-tag {
+  display: inline-block;
+  color: #e8be5a;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+.about h2 {
+  font-family: var(--title);
+  font-weight: 300;
+  font-size: clamp(2.4rem, 3.4vw, 3.2rem);
+  line-height: 1.22;
+  color: var(--white);
+  max-width: 720px;
+  margin-bottom: 46px;
+}
+
+.about-text {
+  max-width: 790px;
+}
+
+.about-text p {
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 1.08rem;
+  line-height: 1.9;
+  margin-bottom: 28px;
+}
+
+.about-stats {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid rgba(232, 190, 90, 0.45);
+  border-bottom: 1px solid rgba(232, 190, 90, 0.25);
+}
+
+.about-stats div {
+  padding: 28px 26px;
+  border-right: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.about-stats div:first-child {
+  padding-left: 0;
+}
+
+.about-stats div:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.about-stats strong {
+  display: block;
+  font-family: var(--title);
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #e8be5a;
+  margin-bottom: 8px;
+}
+
+.about-stats span {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.about-quote {
+  margin-top: 64px;
+  max-width: 850px;
+  font-family: var(--title);
+  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  line-height: 1.25;
+  color: var(--white);
+  border-left: 3px solid #e8be5a;
+  padding-left: 34px;
+}
+
+.about-quote span {
+  display: block;
+  margin-top: 20px;
+  font-family: var(--body);
+  font-size: 0.9rem;
+  color: #e8be5a;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.about::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 140px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #101820
+  );
+  pointer-events: none;
+}

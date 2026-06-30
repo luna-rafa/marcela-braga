@@ -1,0 +1,45 @@
+:root {
+  /* =============================
+     CORES
+  ============================== */
+
+  --primary: #0f2343;
+  --secondary: #d9a441;
+  --gold-light: #f2c76e;
+
+  --black: #1a1a1a;
+  --white: #ffffff;
+  --gray: #f5f6f8;
+  --text: #5c6470;
+
+  /* =============================
+     TIPOGRAFIA
+  ============================== */
+
+  --title: "CormorantMedium";
+  --signature: "CormorantLight";
+  --body: "Poppins", sans-serif;
+
+  /* =============================
+     LAYOUT
+  ============================== */
+
+  --container: 1200px;
+  --radius: 12px;
+  --radius-lg: 28px;
+  --radius-xl: 50px;
+
+  /* =============================
+     TRANSIÇÕES
+  ============================== */
+
+  --transition: 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  /* =============================
+     SOMBRAS
+  ============================== */
+
+  --shadow-sm: 0 8px 20px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 18px 40px rgba(0, 0, 0, 0.18);
+  --shadow-lg: 0 30px 80px rgba(0, 0, 0, 0.28);
+}

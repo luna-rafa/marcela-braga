@@ -1,0 +1,317 @@
+/* =========================
+   TABLET / NOTEBOOK MENOR
+========================= */
+
+@media (max-width: 1100px) {
+  .header-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .brand {
+    justify-content: center;
+    min-width: auto;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+
+  .header-actions {
+    justify-content: center;
+  }
+
+  .hero {
+    padding-top: 230px;
+  }
+
+  .hero-container,
+  .services-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-content p,
+  .hero h2,
+  .business h2,
+  .business-description,
+  .services h2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-stats,
+  .about-stats,
+  .business-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero-image {
+    transform: none;
+  }
+
+  .hero-image img {
+    width: min(80%, 520px);
+    margin: 40px auto 0;
+  }
+
+  .services-container {
+    gap: 50px;
+  }
+
+  .services-image {
+    min-height: 520px;
+  }
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+  section {
+    padding: 80px 0;
+  }
+
+  .header {
+    position: absolute;
+    padding: 18px 0;
+  }
+
+  nav {
+    gap: 16px;
+  }
+
+  nav a {
+    font-size: 0.72rem;
+  }
+
+  .header-button {
+    padding: 10px 18px;
+    font-size: 0.72rem;
+  }
+
+  .hero {
+    padding-top: 260px;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .hero h2,
+  .about h2,
+  .business h2,
+  .services h2,
+  .final-cta h2,
+  .bridge h2 {
+    font-size: 2.35rem;
+  }
+
+  .hero-stats,
+  .about-stats,
+  .business-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-stats div,
+  .about-stats div,
+  .business-card {
+    border-right: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .bridge-container,
+  .final-cta-container {
+    padding: 60px 28px;
+  }
+
+  .services-image {
+    min-height: 460px;
+  }
+
+  .footer {
+    min-height: auto;
+    padding-top: 80px;
+  }
+
+  .footer-container h2 {
+    font-size: 5.5rem;
+  }
+
+  .footer-container h3 {
+    font-size: 2.8rem;
+  }
+}
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 480px) {
+  .container {
+    width: min(92%, 100%);
+  }
+
+  .header-container {
+    gap: 18px;
+  }
+
+  .brand-monogram {
+    font-size: 2.2rem;
+  }
+
+  .brand strong {
+    font-size: 0.78rem;
+    letter-spacing: 3px;
+  }
+
+  .brand span {
+    font-size: 0.62rem;
+    letter-spacing: 2px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .header-actions {
+    gap: 10px;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+  .lang-button {
+    width: 48px;
+    height: 32px;
+    font-size: 0.7rem;
+  }
+
+  .hero {
+    padding-top: 170px;
+    min-height: auto;
+  }
+
+  .hero h1 {
+    font-size: 3.2rem;
+  }
+
+  .hero h2,
+  .about h2,
+  .business h2,
+  .services h2,
+  .final-cta h2,
+  .bridge h2 {
+    font-size: 2rem;
+  }
+
+  .hero-tag,
+  .about-tag,
+  .business-tag,
+  .services-tag,
+  .bridge span,
+  .final-cta span {
+    letter-spacing: 3px;
+    font-size: 0.68rem;
+  }
+
+  .hero-slogan {
+    font-size: 1.05rem;
+  }
+
+  .hero-content p,
+  .about-text p,
+  .business-description,
+  .services p,
+  .bridge p,
+  .final-cta p {
+    font-size: 0.95rem;
+  }
+
+  .hero-image img {
+    width: 100%;
+    border-radius: 18px;
+  }
+
+  .about-bg-number,
+  .business-bg-text {
+    display: none;
+  }
+
+  .about-stats,
+  .business-grid {
+    gap: 0;
+  }
+
+  .bridge {
+    padding: 90px 0;
+  }
+
+  .bridge-container {
+    padding: 48px 22px;
+    border-radius: 22px;
+  }
+
+  .services {
+    padding: 90px 0;
+  }
+
+  .services-container {
+    gap: 35px;
+  }
+
+  .services-image {
+    min-height: 360px;
+    border-radius: 22px;
+  }
+
+  .service-item {
+    padding: 22px;
+  }
+
+  .final-cta {
+    padding: 90px 0 130px;
+  }
+
+  .final-cta-container {
+    padding: 50px 22px;
+    border-radius: 24px;
+  }
+
+  .footer-quote {
+    font-size: 1.5rem;
+  }
+
+  .footer-container h2 {
+    font-size: 4.5rem;
+  }
+
+  .footer-container h3 {
+    font-size: 2.2rem;
+  }
+
+  .footer-container span {
+    letter-spacing: 3px;
+    font-size: 0.72rem;
+  }
+
+  .footer-social {
+    gap: 18px;
+  }
+
+  .footer-social a {
+    width: 52px;
+    height: 52px;
+    font-size: 1.15rem;
+  }
+
+  .footer-bottom {
+    font-size: 0.85rem;
+    padding: 26px 0;
+  }
+}
