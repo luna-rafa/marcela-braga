@@ -1,16 +1,114 @@
-# React + Vite
+# Marcela Braga | Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing Page institucional desenvolvida para **Marcela Braga**, especialista em Logística, Transporte e Desenvolvimento de Negócios.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido com foco em uma experiência elegante, responsiva e bilíngue (Português e Inglês), apresentando os serviços da profissional de forma clara e estratégica.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Acesse o projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Site publicado:**
 
-## Expanding the ESLint configuration
+https://marcela-braga.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Repositório:**
+
+https://github.com/luna-rafa/marcela-braga
+
+---
+
+## Tecnologias utilizadas
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- HTML5
+- React Icons
+
+---
+
+## Funcionalidades
+
+- Landing Page institucional
+- Layout totalmente responsivo
+- Alternância entre Português e Inglês
+- Integração com WhatsApp
+- Navegação por seções
+- Estrutura em componentes React
+- Código organizado para fácil manutenção
+
+---
+
+## Estrutura do projeto
+
+```
+src
+│
+├── assets
+├── components
+│   ├── About
+│   ├── Bridge
+│   ├── Business
+│   ├── FinalCTA
+│   ├── Footer
+│   ├── Header
+│   ├── Hero
+│   └── Services
+│
+├── data
+│   └── content.js
+│
+├── fonts
+│
+├── styles
+│   ├── global.css
+│   ├── reset.css
+│   └── variables.css
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Como executar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/luna-rafa/marcela-braga.git
+```
+
+Entre na pasta:
+
+```bash
+cd marcela-braga
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## Desenvolvido por
+
+**Rodrigues Digital**
+
+Desenvolvimento de Landing Pages, Sites Institucionais, Portfólios e Soluções Digitais.
+
+---
+
+## Licença
+
+Projeto desenvolvido para uso exclusivo da cliente Marcela Braga.
