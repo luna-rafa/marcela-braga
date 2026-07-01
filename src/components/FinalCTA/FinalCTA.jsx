@@ -40,7 +40,7 @@ function FinalCTA({ t }) {
         <p>{t.finalText}</p>
 
         <a
-          href="https://wa.me/5527998473840"
+          href="https://wa.me/5527998473840?text=Ol%C3%A1%2C%20Marcela!%20Conheci%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20uma%20solu%C3%A7%C3%A3o%20para%20meu%20neg%C3%B3cio."
           target="_blank"
           rel="noopener noreferrer"
           className="final-cta-button"
