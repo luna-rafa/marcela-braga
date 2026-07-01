@@ -198,16 +198,17 @@
   }
 
   .hero h1 {
-    font-size: 3.2rem;
-  }
-
+  font-size: 3.8rem;
+  line-height: 1;
+}
   .hero h2,
   .about h2,
   .business h2,
   .services h2,
   .final-cta h2,
   .bridge h2 {
-    font-size: 2rem;
+    font-size: 2.3rem;
+    line-height: 1.25;
   }
 
   .hero-tag,
@@ -230,9 +231,16 @@
   .services p,
   .bridge p,
   .final-cta p {
-    font-size: 0.95rem;
+    font-size: 1.08rem;
+    line-height: 1.8;
   }
+   .hero-stats strong {
+  font-size: 2.4rem;
+}
 
+.hero-stats span {
+  font-size: 0.95rem;
+}
   .hero-image img {
     width: 100%;
     border-radius: 18px;
