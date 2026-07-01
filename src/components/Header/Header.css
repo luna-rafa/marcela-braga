@@ -151,35 +151,54 @@ nav a:hover {
 }
 
 @media (max-width: 480px) {
+  .header {
+    padding: 22px 0;
+  }
+
   .header-container {
-    gap: 18px;
+    gap: 16px;
+  }
+
+  .brand {
+    justify-content: center;
+    gap: 12px;
   }
 
   .brand-monogram {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
 
   .brand strong {
-    font-size: 0.9rem;
-    letter-spacing: 3px;
+    font-size: 1rem;
+    letter-spacing: 4px;
   }
 
   .brand span {
-    font-size: 0.72rem;
-    letter-spacing: 2px;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
   }
 
   nav {
     display: none;
   }
 
-  .header-button {
-    display: none;
+  .header-actions {
+    justify-content: center;
+    gap: 14px;
   }
 
   .lang-button {
-    width: 48px;
-    height: 32px;
-    font-size: 0.7rem;
+    width: 62px;
+    height: 44px;
+    font-size: 0.82rem;
+  }
+
+  .header-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 0.88rem;
   }
 }
